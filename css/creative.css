@@ -8,6 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+	direction:rtl;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #e62526;
     border-width: 3px;
 }
 
@@ -25,7 +26,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #e62526;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -52,7 +53,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #e62526;
 }
 
 .bg-dark {
@@ -89,7 +90,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f05f40;
+    color: #e62526;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -107,12 +108,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #e62526;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #e62526!important;
     background-color: transparent;
 }
 
@@ -128,7 +129,7 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: #3db049;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -138,7 +139,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: #3db049;
     }
 
     .navbar-default .nav > li>a:hover,
@@ -153,7 +154,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #e62526;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -168,7 +169,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #e62526;
     }
 }
 
@@ -209,7 +210,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: #4cb17c;
+    color: #3db049;
 }
 
 @media(min-width:768px) {
@@ -275,7 +276,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: #e4434b;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -324,7 +325,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #f05f40;
+    color: #e62526;
 }
 
 .no-gutter > [class*=col-] {
@@ -386,9 +387,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
+    border-color: #e62526;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #e62526;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -400,9 +401,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #e62526;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #e62526;
 }
 
 .btn-primary:active,
@@ -429,12 +430,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #f05f40;
-    background-color: #f05f40;
+    border-color: #e62526;
+    background-color: #e62526;
 }
 
 .btn-primary .badge {
-    color: #f05f40;
+    color: #e62526;
     background-color: #fff;
 }
 
@@ -458,7 +459,7 @@ fieldset[disabled] .btn-primary.active {
 
 ::selection {
     text-shadow: none;
-    color: #fff;
+    color: #3db049;
     background: #222;
 }
 
